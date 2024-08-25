@@ -1,12 +1,12 @@
 # Library Management System
 
 ## Group Members
-- 150768
-- 152955
-- 151353
-- 149008
-- 124020
-- 081000
+- 150768 (Olwande James Obadha)
+- 152955 (George Lokong)
+- 151353 (David Nyamamba Mose)
+- 149008 (Godwill Kiprop)
+- 124020 (Luke Tsalwa)
+- 081000 (Peter Kamau)
 
 ## Project Overview
 This project is a Library Management System built using Django and Django REST Framework (DRF). The system allows users to manage authors, categories, books, members, and loans. It provides a RESTful API that supports full CRUD (Create, Read, Update, Delete) operations.
