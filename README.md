@@ -125,7 +125,7 @@ This document outlines the test cases implemented for the Library API. These tes
 
 All tests were executed using Django's testing framework. Below is a screenshot of the test output:
 
-![Test Results Screenshot](LibraryManagementSystem-Group1/UpdatedDjangoBuiltInTestScreenshot.png)
+![Test Results Screenshot](UpdatedDjangoBuiltInTestScreenshot.png)
 
 #### AuthorAPITests
 - **test_get_all_authors:** Retrieves all authors successfully (expected status code: 200 OK)
