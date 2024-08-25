@@ -32,6 +32,11 @@ class LoanSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
     def validate(self, data):
-        if data['return_date'] and data['return_date'] < data['loan_date']:
+        loan_date = data.get('loan_date', None)
+        if loan_date is None:
+            loan_date = self.instance.loan_date if self.instance else None
+
+        return_date = data.get('return_date', None)
+        if return_date and loan_date and return_date < loan_date:
             raise serializers.ValidationError("Return date cannot be before the loan date.")
         return data
